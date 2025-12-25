@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"id\":\"4JgjML2r5Z\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Gaisano PRS</span>\",\"col\":12}},{\"id\":\"P5bPVLQ5ru\",\"type\":\"paragraph\",\"data\":{\"text\":\"Create A PRS Here:\",\"col\":12}},{\"id\":\"U1p5N79Jug\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Purchase Requisition\",\"col\":3}},{\"id\":\"kbdP9CoNZL\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Setup</b></span>\",\"col\":12}},{\"id\":\"zGaRaj4Eus\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Branch\",\"col\":3}},{\"id\":\"qSJ5kDzhip\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Department\",\"col\":3}},{\"id\":\"Sn7qxqq7Q7\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Requisitioner\",\"col\":3}},{\"id\":\"kXhg5GkB1E\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Project\",\"col\":3}}]",
+ "content": "[{\"id\":\"4JgjML2r5Z\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Gaisano PRS</span>\",\"col\":12}},{\"id\":\"U1p5N79Jug\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"View All PRS Documents\",\"col\":3}},{\"id\":\"GndNWNVC0F\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"PRS Pending INV Check\",\"col\":3}},{\"id\":\"kbdP9CoNZL\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Setup</b></span>\",\"col\":12}},{\"id\":\"zGaRaj4Eus\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Branch\",\"col\":3}},{\"id\":\"qSJ5kDzhip\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Department\",\"col\":3}},{\"id\":\"Sn7qxqq7Q7\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Requisitioner\",\"col\":3}},{\"id\":\"kXhg5GkB1E\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Project\",\"col\":3}}]",
  "creation": "2025-12-25 11:08:36.302275",
  "custom_blocks": [],
  "docstatus": 0,
@@ -13,7 +13,7 @@
  "is_hidden": 0,
  "label": "Gaisano PRS",
  "links": [],
- "modified": "2025-12-25 11:47:28.646874",
+ "modified": "2025-12-25 12:40:45.973609",
  "modified_by": "Administrator",
  "module": "Gaisano Purchase Requisition System",
  "name": "Gaisano PRS",
@@ -29,7 +29,7 @@
    "color": "Blue",
    "doc_view": "List",
    "format": "{} PRS",
-   "label": "Purchase Requisition",
+   "label": "View All PRS Documents",
    "link_to": "Purchase Requisition",
    "stats_filter": "[]",
    "type": "DocType"
@@ -40,6 +40,15 @@
    "label": "Branch",
    "link_to": "Branch",
    "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Yellow",
+   "doc_view": "List",
+   "format": "{} Pending",
+   "label": "PRS Pending INV Check",
+   "link_to": "Purchase Requisition",
+   "stats_filter": "[[\"Purchase Requisition\",\"workflow_state\",\"=\",\"Pending Update\",false]]",
    "type": "DocType"
   },
   {
