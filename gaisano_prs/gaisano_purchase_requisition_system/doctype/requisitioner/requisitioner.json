@@ -21,7 +21,7 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-12-24 21:54:03.125812",
+ "modified": "2025-12-25 12:08:21.995796",
  "modified_by": "Administrator",
  "module": "Gaisano Purchase Requisition System",
  "name": "Requisitioner",
@@ -63,6 +63,7 @@
    "write": 1
   }
  ],
+ "quick_entry": 1,
  "row_format": "Dynamic",
  "show_title_field_in_link": 1,
  "sort_field": "modified",
