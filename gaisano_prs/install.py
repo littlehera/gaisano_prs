@@ -38,4 +38,3 @@ def add_permissions_to_roles():
                 # now we update the above role to have all permissions from the ptype
                 update_permission_property(dt, role, 0, p0, 0)
     
-    roles=[]
