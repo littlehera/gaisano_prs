@@ -1,6 +1,6 @@
 {
  "actions": [],
- "autoname": "format:PRS-{YY}{MM}{DD}{####}",
+ "autoname": "naming_series:naming_series",
  "creation": "2025-12-24 21:44:46.758313",
  "default_view": "List",
  "doctype": "DocType",
@@ -18,6 +18,7 @@
   "date_needed",
   "deliver_to",
   "amended_from",
+  "naming_series",
   "items_section",
   "items"
  ],
@@ -61,8 +62,10 @@
   },
   {
    "fieldname": "purpose",
-   "fieldtype": "Data",
-   "label": "Purpose"
+   "fieldtype": "Select",
+   "label": "Purpose",
+   "options": "Construction Materials & Supplies\nConstruction Equipment\nStore Supply\nStore Equipment\nOffice Supply\nOffice Equipment\nFood Supply\nFood Equipment\nFurniture & Fixtures\nEquipment parts, tools and accessories\nWarehouse Gondola\nShowcase\nStore racking\nMotorpool parts & supply\nDiesel\nFleet",
+   "sort_options": 1
   },
   {
    "fieldname": "project_name",
@@ -111,17 +114,26 @@
    "label": "Requisition Items",
    "options": "Requisition Item",
    "reqd": 1
+  },
+  {
+   "default": "PRS-.YY.MM.DD.#####",
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Series",
+   "options": "PRS-.YY.MM.DD.#####",
+   "read_only": 1,
+   "reqd": 1
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-12-25 12:38:05.820044",
+ "modified": "2026-01-21 15:25:27.593773",
  "modified_by": "Administrator",
  "module": "Gaisano Purchase Requisition System",
  "name": "Purchase Requisition",
- "naming_rule": "Expression",
+ "naming_rule": "By \"Naming Series\" field",
  "owner": "Administrator",
  "permissions": [
   {

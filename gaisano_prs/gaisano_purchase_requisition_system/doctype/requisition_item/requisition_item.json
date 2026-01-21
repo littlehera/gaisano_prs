@@ -16,28 +16,34 @@
  "fields": [
   {
    "columns": 1,
+   "default": "0",
    "fieldname": "inv_onhand",
    "fieldtype": "Float",
    "in_list_view": 1,
    "label": "Inv. On Hand",
-   "non_negative": 1
+   "non_negative": 1,
+   "read_only_depends_on": "eval: !(frappe.user.has_role(\"Purchase Manager\")||frappe.user.has_role(\"Inventory Manager\"))"
   },
   {
    "columns": 1,
+   "default": "0",
    "fieldname": "order_qty",
    "fieldtype": "Float",
    "in_list_view": 1,
    "label": "Order Qty",
    "non_negative": 1,
+   "read_only_depends_on": "eval: ((frappe.user.has_role(\"Purchase Manager\")||frappe.user.has_role(\"Inventory Manager\"))&&!frappe.user.has_role(\"Purchase User\"))",
    "reqd": 1
   },
   {
    "columns": 1,
+   "default": "0",
    "fieldname": "final_order",
    "fieldtype": "Float",
    "in_list_view": 1,
    "label": "Final Order",
-   "non_negative": 1
+   "non_negative": 1,
+   "read_only_depends_on": "eval: !(frappe.user.has_role(\"Purchase Manager\")||frappe.user.has_role(\"Inventory Manager\"))"
   },
   {
    "columns": 3,
@@ -64,7 +70,7 @@
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2025-12-24 22:38:53.750387",
+ "modified": "2026-01-21 16:25:05.308993",
  "modified_by": "Administrator",
  "module": "Gaisano Purchase Requisition System",
  "name": "Requisition Item",

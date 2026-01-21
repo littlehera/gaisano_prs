@@ -2,15 +2,6 @@
  {
   "docstatus": 0,
   "doctype": "Workflow State",
-  "icon": "question-sign",
-  "modified": "2025-12-24 19:10:04.927614",
-  "name": "Pending",
-  "style": "",
-  "workflow_state_name": "Pending"
- },
- {
-  "docstatus": 0,
-  "doctype": "Workflow State",
   "icon": "remove",
   "modified": "2025-12-24 19:10:04.933397",
   "name": "Rejected",
@@ -21,10 +12,64 @@
   "docstatus": 0,
   "doctype": "Workflow State",
   "icon": "",
+  "modified": "2026-01-21 15:16:46.453774",
+  "name": "For PO",
+  "style": "Info",
+  "workflow_state_name": "For PO"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2026-01-21 15:16:37.956637",
+  "name": "Received",
+  "style": "Success",
+  "workflow_state_name": "Received"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
   "modified": "2025-12-24 22:20:45.506112",
   "name": "Pending Update",
   "style": "Warning",
   "workflow_state_name": "Pending Update"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2026-01-21 15:03:57.239714",
+  "name": "For Inventory Check",
+  "style": "",
+  "workflow_state_name": "For Inventory Check"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2026-01-21 15:04:03.522361",
+  "name": "For Canvass",
+  "style": "",
+  "workflow_state_name": "For Canvass"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "question-sign",
+  "modified": "2025-12-24 19:10:04.927614",
+  "name": "Pending",
+  "style": "",
+  "workflow_state_name": "Pending"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2026-01-21 15:03:48.297224",
+  "name": "For Head Verification",
+  "style": "",
+  "workflow_state_name": "For Head Verification"
  },
  {
   "docstatus": 0,

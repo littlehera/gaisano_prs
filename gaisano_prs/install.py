@@ -6,7 +6,7 @@ def after_install():
     add_permissions_to_roles()
 
 def create_roles():
-    roles = ["Inventory Manager"]
+    roles = ["Inventory Manager","Department Head"]
     for role in roles:
         try:
             frappe.get_doc("Role", role)
@@ -20,7 +20,7 @@ def create_roles():
         else:
             continue
 def add_permissions_to_roles():
-    roles = ["Inventory Manager"]
+    roles = ["Inventory Manager", "Department Head"]
     doctypes = ["Purchase Requisition", "Requisition Item", "Project", "Branch", "Department","Requisitioner"]
     #Add generic permissions to roles
     for role in roles:

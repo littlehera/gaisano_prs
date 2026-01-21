@@ -83,7 +83,7 @@ app_license = "mit"
 # ------------
 
 # before_install = "gaisano_prs.install.before_install"
-# after_install = "gaisano_prs.install.after_install"
+after_install = "gaisano_prs.install.after_install"
 
 # Uninstallation
 # ------------
