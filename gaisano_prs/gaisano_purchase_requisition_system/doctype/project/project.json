@@ -1,5 +1,6 @@
 {
  "actions": [],
+ "allow_import": 1,
  "allow_rename": 1,
  "autoname": "field:project_name",
  "creation": "2025-12-24 22:03:03.139243",
@@ -21,7 +22,7 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-12-25 12:07:56.986019",
+ "modified": "2026-01-26 15:35:07.227546",
  "modified_by": "Administrator",
  "module": "Gaisano Purchase Requisition System",
  "name": "Project",
