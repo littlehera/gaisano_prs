@@ -16,9 +16,11 @@
   "column_break_jwux",
   "date_requested",
   "date_needed",
+  "recipient",
   "deliver_to",
-  "amended_from",
   "naming_series",
+  "cost_center",
+  "amended_from",
   "items_section",
   "items"
  ],
@@ -100,7 +102,7 @@
   {
    "fieldname": "deliver_to",
    "fieldtype": "Data",
-   "label": "Deliver To",
+   "label": "Deliver To Location",
    "reqd": 1
   },
   {
@@ -123,13 +125,26 @@
    "options": "PRS-.YY.MM.DD.#####",
    "read_only": 1,
    "reqd": 1
+  },
+  {
+   "fieldname": "recipient",
+   "fieldtype": "Data",
+   "label": "Recipient",
+   "reqd": 1
+  },
+  {
+   "fieldname": "cost_center",
+   "fieldtype": "Link",
+   "label": "Cost Center (Department)",
+   "options": "Department",
+   "reqd": 1
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2026-01-21 15:25:27.593773",
+ "modified": "2026-01-27 15:23:29.078559",
  "modified_by": "Administrator",
  "module": "Gaisano Purchase Requisition System",
  "name": "Purchase Requisition",
