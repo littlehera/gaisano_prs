@@ -12,6 +12,7 @@
   "department",
   "purpose",
   "project_name",
+  "work_order",
   "remarks",
   "column_break_jwux",
   "date_requested",
@@ -138,13 +139,18 @@
    "label": "Cost Center (Department)",
    "options": "Department",
    "reqd": 1
+  },
+  {
+   "fieldname": "work_order",
+   "fieldtype": "Data",
+   "label": "Work Order Reference Number"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2026-01-27 15:23:29.078559",
+ "modified": "2026-01-28 11:45:09.530168",
  "modified_by": "Administrator",
  "module": "Gaisano Purchase Requisition System",
  "name": "Purchase Requisition",

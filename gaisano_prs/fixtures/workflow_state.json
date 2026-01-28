@@ -2,6 +2,15 @@
  {
   "docstatus": 0,
   "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2026-01-28 11:42:15.032840",
+  "name": "Cancelled",
+  "style": "Danger",
+  "workflow_state_name": "Cancelled"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
   "icon": "remove",
   "modified": "2025-12-24 19:10:04.933397",
   "name": "Rejected",
@@ -39,19 +48,19 @@
   "docstatus": 0,
   "doctype": "Workflow State",
   "icon": "",
-  "modified": "2026-01-21 15:03:57.239714",
-  "name": "For Inventory Check",
+  "modified": "2026-01-21 15:04:03.522361",
+  "name": "For Canvass",
   "style": "",
-  "workflow_state_name": "For Inventory Check"
+  "workflow_state_name": "For Canvass"
  },
  {
   "docstatus": 0,
   "doctype": "Workflow State",
   "icon": "",
-  "modified": "2026-01-21 15:04:03.522361",
-  "name": "For Canvass",
+  "modified": "2026-01-21 15:03:57.239714",
+  "name": "For Inventory Check",
   "style": "",
-  "workflow_state_name": "For Canvass"
+  "workflow_state_name": "For Inventory Check"
  },
  {
   "docstatus": 0,
@@ -66,19 +75,19 @@
   "docstatus": 0,
   "doctype": "Workflow State",
   "icon": "",
-  "modified": "2026-01-21 15:03:48.297224",
-  "name": "For Head Verification",
+  "modified": "2025-12-24 22:25:29.226134",
+  "name": "For Checking",
   "style": "",
-  "workflow_state_name": "For Head Verification"
+  "workflow_state_name": "For Checking"
  },
  {
   "docstatus": 0,
   "doctype": "Workflow State",
   "icon": "",
-  "modified": "2025-12-24 22:25:29.226134",
-  "name": "For Checking",
+  "modified": "2026-01-21 15:03:48.297224",
+  "name": "For Head Verification",
   "style": "",
-  "workflow_state_name": "For Checking"
+  "workflow_state_name": "For Head Verification"
  },
  {
   "docstatus": 0,
