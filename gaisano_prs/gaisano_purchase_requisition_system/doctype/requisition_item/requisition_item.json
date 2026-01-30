@@ -11,7 +11,8 @@
   "final_order",
   "item_description",
   "specifications",
-  "canvass_results_by_supplier"
+  "canvass_results_by_supplier",
+  "final_order_changed"
  ],
  "fields": [
   {
@@ -64,13 +65,20 @@
    "fieldname": "canvass_results_by_supplier",
    "fieldtype": "Text",
    "label": "Canvass Results By Supplier"
+  },
+  {
+   "default": "0",
+   "fieldname": "final_order_changed",
+   "fieldtype": "Check",
+   "label": "Final Order Changed?",
+   "read_only": 1
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2026-01-21 16:25:05.308993",
+ "modified": "2026-01-30 14:02:09.614728",
  "modified_by": "Administrator",
  "module": "Gaisano Purchase Requisition System",
  "name": "Requisition Item",
