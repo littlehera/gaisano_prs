@@ -26,8 +26,11 @@ def add_permissions_to_roles():
     for role in roles:
         if not frappe.db.exists("Role", role):
             continue
-        ptype = ["read", "write", "report"] #ptype with permissions = 1
-        ptype_0 = ["create", "delete", "submit", "cancel", "amend"] #ptype with permissions = 0
+        if role == "Inventory Manager":
+            ptype = ["create", "read", "write", "report", "submit"] #ptype with permissions = 1
+        else:
+            ptype = ["create", "read", "write", "report"] #ptype with permissions = 1
+        ptype_0 = ["delete", "cancel", "amend"] #ptype with permissions = 0
         for dt in doctypes:
             # this adds read permission to the role
             add_permission(dt, role)
