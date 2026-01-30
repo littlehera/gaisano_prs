@@ -30,6 +30,13 @@
  {
   "docstatus": 0,
   "doctype": "Workflow Action Master",
+  "modified": "2026-01-30 13:12:32.440397",
+  "name": "To Receive",
+  "workflow_action_name": "To Receive"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
   "modified": "2025-12-24 19:10:04.957885",
   "name": "Review",
   "workflow_action_name": "Review"
