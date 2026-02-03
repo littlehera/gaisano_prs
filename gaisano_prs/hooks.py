@@ -250,5 +250,8 @@ fixtures = [{
 			},
 			{
 				"doctype": "Workflow Action Master"
+			},
+			{
+				"doctype": "Unit of Measure"
 			}
 	]
