@@ -4,7 +4,7 @@
   "doctype": "Workflow",
   "document_type": "Purchase Requisition",
   "is_active": 1,
-  "modified": "2026-01-30 13:13:16.777595",
+  "modified": "2026-02-03 14:17:40.356672",
   "name": "Gaisano PRS",
   "override_status": 0,
   "send_email_alert": 0,
@@ -76,7 +76,7 @@
    {
     "allow_edit": "Purchase Manager",
     "avoid_status_override": 0,
-    "doc_status": "0",
+    "doc_status": "1",
     "is_optional_state": 0,
     "message": null,
     "next_action_email_template": null,
@@ -92,7 +92,7 @@
    {
     "allow_edit": "Purchase Manager",
     "avoid_status_override": 0,
-    "doc_status": "0",
+    "doc_status": "1",
     "is_optional_state": 0,
     "message": null,
     "next_action_email_template": null,
@@ -108,7 +108,7 @@
    {
     "allow_edit": "Inventory Manager",
     "avoid_status_override": 0,
-    "doc_status": "0",
+    "doc_status": "1",
     "is_optional_state": 0,
     "message": null,
     "next_action_email_template": null,
