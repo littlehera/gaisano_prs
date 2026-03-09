@@ -12,10 +12,10 @@
   "docstatus": 0,
   "doctype": "Workflow State",
   "icon": "",
-  "modified": "2026-01-28 11:42:15.032840",
-  "name": "Cancelled",
+  "modified": "2026-03-03 17:59:59.916011",
+  "name": "Dropped",
   "style": "Danger",
-  "workflow_state_name": "Cancelled"
+  "workflow_state_name": "Dropped"
  },
  {
   "docstatus": 0,
@@ -25,6 +25,15 @@
   "name": "To Receive",
   "style": "",
   "workflow_state_name": "To Receive"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-12-24 22:20:45.506112",
+  "name": "Pending Update",
+  "style": "Warning",
+  "workflow_state_name": "Pending Update"
  },
  {
   "docstatus": 0,
@@ -48,19 +57,10 @@
   "docstatus": 0,
   "doctype": "Workflow State",
   "icon": "",
-  "modified": "2025-12-24 22:20:45.506112",
-  "name": "Pending Update",
-  "style": "Warning",
-  "workflow_state_name": "Pending Update"
- },
- {
-  "docstatus": 0,
-  "doctype": "Workflow State",
-  "icon": "",
-  "modified": "2026-01-21 15:04:03.522361",
-  "name": "For Canvass",
-  "style": "",
-  "workflow_state_name": "For Canvass"
+  "modified": "2026-01-28 11:42:15.032840",
+  "name": "Cancelled",
+  "style": "Danger",
+  "workflow_state_name": "Cancelled"
  },
  {
   "docstatus": 0,
@@ -88,6 +88,15 @@
   "name": "For Checking",
   "style": "",
   "workflow_state_name": "For Checking"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2026-01-21 15:04:03.522361",
+  "name": "For Canvass",
+  "style": "",
+  "workflow_state_name": "For Canvass"
  },
  {
   "docstatus": 0,
