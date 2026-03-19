@@ -43,6 +43,7 @@
   {
    "fieldname": "requisitioner",
    "fieldtype": "Link",
+   "in_list_view": 1,
    "label": "Requisitioner",
    "options": "Requisitioner",
    "reqd": 1
@@ -67,7 +68,7 @@
    "fieldname": "purpose",
    "fieldtype": "Select",
    "label": "Purpose",
-   "options": "Construction Materials & Supplies\nConstruction Equipment\nStore Supply\nStore Equipment\nOffice Supply\nOffice Equipment\nFood Supply\nFood Equipment\nFurniture & Fixtures\nEquipment parts, tools and accessories\nWarehouse Gondola\nShowcase\nStore racking\nMotorpool parts & supply\nDiesel\nFleet",
+   "options": "Ads and Promotion\nConstruction Equipment\nStore Supply\nStore Equipment\nOffice Supply\nOffice Equipment\nFood Supply\nFood Equipment\nFurniture & Fixtures\nEquipment parts, tools and accessories\nWarehouse Gondola\nShowcase\nStore racking\nMotorpool parts & supply\nDiesel\nFleet\nRenovations (Supermarket)\nRenovations (Department Store)\nRenovations (Mall Bodega)\nRenovations (Commercial Units)\nRenovations (Warehouse)\nNew Mall Construction\nMall Expansion\nRepair & Maintenance",
    "sort_options": 1
   },
   {
@@ -150,7 +151,7 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2026-01-28 11:45:09.530168",
+ "modified": "2026-03-19 10:11:50.489661",
  "modified_by": "Administrator",
  "module": "Gaisano Purchase Requisition System",
  "name": "Purchase Requisition",
@@ -205,10 +206,10 @@
   }
  ],
  "row_format": "Dynamic",
- "search_fields": "requisitioner, branch, project_name",
+ "search_fields": "purpose, requisitioner, branch, project_name",
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": [],
- "title_field": "purpose",
+ "title_field": "requisitioner",
  "track_changes": 1
 }
