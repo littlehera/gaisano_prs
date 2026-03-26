@@ -10,6 +10,7 @@
   "requisitioner",
   "branch",
   "department",
+  "dept_head",
   "purpose",
   "project_name",
   "work_order",
@@ -145,13 +146,19 @@
    "fieldname": "work_order",
    "fieldtype": "Data",
    "label": "Work Order Reference Number"
+  },
+  {
+   "depends_on": "eval:(doc.workflow_state !=\"Pending\")",
+   "fieldname": "dept_head",
+   "fieldtype": "Data",
+   "label": "Name of Department Head"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2026-03-19 10:11:50.489661",
+ "modified": "2026-03-26 14:29:08.535077",
  "modified_by": "Administrator",
  "module": "Gaisano Purchase Requisition System",
  "name": "Purchase Requisition",
