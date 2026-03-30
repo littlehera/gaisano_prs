@@ -69,7 +69,7 @@
    "fieldname": "purpose",
    "fieldtype": "Select",
    "label": "Purpose",
-   "options": "Ads and Promotion\nConstruction Equipment\nStore Supply\nStore Equipment\nOffice Supply\nOffice Equipment\nFood Supply\nFood Equipment\nFurniture & Fixtures\nEquipment parts, tools and accessories\nWarehouse Gondola\nShowcase\nStore racking\nMotorpool parts & supply\nDiesel\nFleet\nRenovations (Supermarket)\nRenovations (Department Store)\nRenovations (Mall Bodega)\nRenovations (Commercial Units)\nRenovations (Warehouse)\nNew Mall Construction\nMall Expansion\nRepair & Maintenance",
+   "options": "Ads and Promotion\nConstruction Equipment\nStore Supply\nStore Equipment\nOffice Supply\nOffice Equipment\nFood Supply\nFood Equipment\nFurniture & Fixtures\nEquipment parts, tools and accessories\nWarehouse Gondola\nShowcase\nStore racking\nMotorpool parts & supply\nDiesel\nFleet\nRenovations (Supermarket)\nRenovations (Department Store)\nRenovations (Mall Bodega)\nRenovations (Commercial Units)\nRenovations (Warehouse)\nNew Mall Construction\nMall Expansion\nRepair & Maintenance\nConstruction Materials & Supplies",
    "sort_options": 1
   },
   {
@@ -158,7 +158,7 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2026-03-26 14:29:08.535077",
+ "modified": "2026-03-30 11:39:14.620106",
  "modified_by": "Administrator",
  "module": "Gaisano Purchase Requisition System",
  "name": "Purchase Requisition",
